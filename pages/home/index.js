@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { DualAxes } from '@ant-design/plots';
 
 
-const index = () => {
+const Index = () => {
     const data1 = [{"time":"0时","pv":10,"uv":4},{"time":"1时","pv":54,"uv":17},{"time":"2时","pv":231,"uv":331},{"time":"3时","pv":210,"uv":9},{"time":"4时","pv":12,"uv":23},{"time":"5时","pv":64,"uv":312},{"time":"6时","pv":321,"uv":32},{"time":"7时","pv":123,"uv":231},{"time":"8时","pv":32,"uv":46},{"time":"9时","pv":312,"uv":324},{"time":"10时","pv":198,"uv":123},{"time":"11时","pv":299,"uv":435},{"time":"12时","pv":643,"uv":399},{"time":"13时","pv":224,"uv":24},{"time":"14时","pv":666,"uv":420},{"time":"15时","pv":256,"uv":155},{"time":"16时","pv":90,"uv":23},{"time":"17时","pv":124,"uv":34},{"time":"18时","pv":168,"uv":425},{"time":"19时","pv":24,"uv":152},{"time":"20时","pv":163,"uv":25},{"time":"21时","pv":75,"uv":35},{"time":"22时","pv":64,"uv":35},{"time":"23时","pv":63,"uv":64},{"time":"24时","pv":85,"uv":35}]
     const config = {
         autoFit: true,
@@ -137,4 +137,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
